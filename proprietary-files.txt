@@ -38,7 +38,7 @@ vendor/etc/camera/wayne_imx486_sunny_cn_i_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_cn_iii_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_india_i_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_india_iii_chromatix.xml
-vendor/lib/hw/camera.sdm660.so
+vendor/lib/hw/camera.sdm660.so|e0c33c41d70ef7c89c5782f0023d0622734ad4da
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libqomx_core.so
@@ -98,7 +98,7 @@ vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_lib.so
-vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_stats_modules.so|efe7fdbe3a64efd3642d6d523995ed584ddbf1cc
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
@@ -109,7 +109,7 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
-vendor/lib/libvidhance_gyro.so
+vendor/lib/libvidhance_gyro.so|c17263364b1658cabf726d688fcb7d9454980f65
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_660_opencl.bin
 vendor/lib64/libmmcamera2_frame_algorithm.so
@@ -740,13 +740,13 @@ vendor/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml|b3ebd0fcd2ed
 
 # Fingerprint - from jasmine V10.0.2.0.PDIMIFJ
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so|a614d71107ce28380e8cdcab23e80fb7d014a22d
-vendor/lib64/hw/fingerprint.fpc.default.so|ac0285f2ee91037477771bac74436fa03828edf6
+vendor/lib64/hw/fingerprint.fpc.default.so|06f301e2b730aaf1aa603f7bb7f5452a13af2edb
 vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
-vendor/lib64/com.fingerprints.extension@1.0.so|2ae37b689b286921702cf9533e9f09ffe6736968
+vendor/lib64/com.fingerprints.extension@1.0.so|57dd39b37d71849f2a90e9b02521513ec0b496a2
 vendor/lib64/libgf_ca.so|24a5dc2647d5c4b892ed16d74c31cc841604a505|b7635dcbea9a7e7252e746914f995a5ffb92b5d0
 vendor/lib64/libgf_hal.so|d601b957f58e840d2ff5a69f7fda74aca93805b2
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04926cde4fb475d074331ba8dbf5
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b47f3d59c111a97a47ed38d4cb05ddf59a47ebac
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ee1798cbab423d2964ba15abecfcc8eaa25bc0b5
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|3f02a48649fbba6aac46a535362ef8ad2569bf74
 
 # Fingerprint firmware - from jasmine V10.0.2.0.PDIMIFJ
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00|c5c3594b47dffb3aadb81abced42518d24637893
@@ -779,16 +779,16 @@ vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
 # Gatekeeper - from jasmine
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|c6946ddba55e0e5cfdf469fdf09b763db657065e
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|130644eda6bbcbfb8a688589716e6f02792bf0bb
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|9bba980a251528cf998b000b702242be7c2efea0
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 
 # Keymaster - from jasmine
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|abff451585ac986f29477d5d9c082836f025d707
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|fd530ca71e9d3774033c7c672607a65da329b2e8
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|ebd0ad6d83f5a7c682ebd22ae42df2a7583a411a
 
 # Sensors - from jasmine
 vendor/bin/sensors.qti
