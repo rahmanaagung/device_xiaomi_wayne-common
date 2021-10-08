@@ -23,6 +23,11 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Cgroup and task_profiles
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Consumerir
 BOARD_HAVE_IR := true
 
